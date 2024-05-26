@@ -129,7 +129,7 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          <p>n the continued development of next-generation networking and artificial intelligence content generation (AIGC) services, the integration of multi-agent systems (MAS) and the mixture of experts (MoE) frameworks is becoming increasingly important. Motivated by this, this article studies the contrasting and converging of MAS and MoE in AIGC-enabled networking. First, we discuss the architectural designs, operational procedures, and inherent advantages of using MAS and MoE in generative AI to explore its functionality and applications fully. Next, we review the applications of MAS and MoE frameworks in content generation and resource allocation, emphasizing their impact on networking operations. Subsequently, we propose a novel multi-agent-enabled MoE-proximal policy optimization (MoE-PPO) framework for 3D object generation and data transfer scenarios. The framework uses MAS for dynamic task coordination of each network service provider agent and MoE for expert-driven execution of respective tasks, thereby improving overall system efficiency and adaptability. The simulation results demonstrate the effectiveness of our proposed framework and significantly improve the performance indicators under different network conditions. Finally, we outline potential future research directions.
+          <p>In the continued development of next-generation networking and artificial intelligence content generation (AIGC) services, the integration of multi-agent systems (MAS) and the mixture of experts (MoE) frameworks is becoming increasingly important. Motivated by this, this article studies the contrasting and converging of MAS and MoE in AIGC-enabled networking. First, we discuss the architectural designs, operational procedures, and inherent advantages of using MAS and MoE in generative AI to explore its functionality and applications fully. Next, we review the applications of MAS and MoE frameworks in content generation and resource allocation, emphasizing their impact on networking operations. Subsequently, we propose a novel multi-agent-enabled MoE-proximal policy optimization (MoE-PPO) framework for 3D object generation and data transfer scenarios. The framework uses MAS for dynamic task coordination of each network service provider agent and MoE for expert-driven execution of respective tasks, thereby improving overall system efficiency and adaptability. The simulation results demonstrate the effectiveness of our proposed framework and significantly improve the performance indicators under different network conditions. Finally, we outline potential future research directions.
           </p>
         </div>
       </div>
@@ -147,26 +147,37 @@
        <div class="item">
         <!-- Your image here -->
         <div align="center">
-          <img src="static/images/GAI1.png" width: auto  height: auto  alt="The evolution of AI"/>
+          <img src="static/images/RC_MoE.jpg" width: auto  height: auto  alt="The evolution of AI"/>
         </div>
         <h2 class="subtitle has-text-centered">
-          The overall of GAI for physical layer communication security. Part A illustrates the structure of GAI models. Part B presents security issues faced by physical layer communications. In Part C, we introduce three examples based on GAI for communication security. These three models are based on VAE, DM, and GAN, respectively. Part D demonstrates important physical layer communication attack scenarios, including eavesdropping, jamming, and anomaly detection.        </h2>
+          Structure and function of MoE and MAS for GenAI. MoE framework is described as a dynamic network where a central gating mechanism delegates tasks to specialized experts, focusing on feedback for performance optimization and benefits such as precision and customization. MAS is described as a collaborative environment where agents use shared protocols for interaction, decision-making, and context awareness.       </h2>
       </div>
         
 <div class="item">
         <!-- Your image here -->
-        <img src="static/images/zhaocy_moe.png"   width: auto  height: auto alt="Summary of potential issues of IAI"/>
+        <img src="static/images/RC_DS.jpg"   width: auto  height: auto alt="Summary of potential issues of IAI"/>
         <h2 class="subtitle has-text-centered">
-          The structure of MoE. In Part A, we illustrate the main components and working mechanism of the MoE framework. Part B presents an example of using the MoE framework to learn the different characteristic distributions of multiple data. Part C demonstrates how to learn different features of data for multiple tasks via MoE structure. 
+          Summary of similarity and differences between MAS and MoE for GenAI.
         </h2>
       </div>
 
 <div class="item">
         <!-- Your image here -->
-        <img src="static/images/frame.png"   width: auto  height: auto  alt="The framework of IAI"/>
+        <img src="static/images/RC_PR.jpg"   width: auto  height: auto  alt="The framework of IAI"/>
         <h2 class="subtitle has-text-justified">
-          The workflow of the proposed framework. In Part A, the proposed framework solves optimization problems through reinforcement learning following 4 steps: 1). Task Setting; 2). MoE Learning; 3). Denoising Diffusion; 4). Action Evaluation. Part B illustrates the cooperative friendly jamming optimization problem considered in case study. The figure introduces the detail scenario and optimization problem settings including optimization objectives, constraints, etc.</h2>
+          Summary of related works of MAS and MoE for GenAI.</h2>
       </div>
+
+
+
+<div class="item">
+        <!-- Your image here -->
+        <img src="static/images/RC_sys.jpg"   width: auto  height: auto  alt="The framework of IAI"/>
+        <h2 class="subtitle has-text-justified">
+          The Structure of system model and proposed solution framework. Multiple NSPs (each NSP responsible for a different type of food) collaborate to collect, process, and tramsit 3D objects of food. The left part of the figure shows the process from collecting various 2D images from different angles for each NSP to generate these images into a 3D object. The right part introduces MoE framework, in which multiple experts, guided by a gating network, optimize specific subtasks, such as image selection and power allocation, to improve efficiency and reduce overall transmission costs.</h2>
+      </div>
+
+
         
 </section>
 <!-- End image carousel -->
